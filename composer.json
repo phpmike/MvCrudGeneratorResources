@@ -1,0 +1,29 @@
+{
+    "name": "mv/mv-crud-generator-resources-bundle",
+    "type": "symfony-bundle",
+    "description": "Resources for MvCrudGenerator",
+    "keywords": ["resources phpmike"],
+    "homepage": "https://github.com/phpmike/MvCrudGeneratorResources",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Michaël VEROUX",
+            "homepage": "https://github.com/phpmike"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": ">=2.2.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-0": {
+            "Mv\\CrudGeneratorResourcesBundle": ""
+        }
+    },
+    "target-dir" : "Mv/CrudGeneratorResourcesBundle"
+}
