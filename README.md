@@ -1,0 +1,4 @@
+MvCrudGeneratorResources
+========================
+
+Resources for MvCrudGenerator
